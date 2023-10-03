@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomeScreen</class>
+ <widget class="QMainWindow" name="HomeScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1180</width>
+    <height>664</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>10</number>
+    </property>
+    <property name="topMargin">
+     <number>10</number>
+    </property>
+    <property name="rightMargin">
+     <number>10</number>
+    </property>
+    <property name="bottomMargin">
+     <number>10</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="DropShadow">
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+	color: rgb(253, 253, 253);
+	background-color: rgb(253, 253, 253);
+	border-radius: 08 px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="ElixirText">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>70</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>LEIXO DEMO</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(172, 172, 172);
+}</string>
+       </property>
+       <property name="text">
+        <string>ELIXIR</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="CloseBtn">
+       <property name="geometry">
+        <rect>
+         <x>1088</x>
+         <y>26</y>
+         <width>48</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Roboto</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	color: rgb(172, 172, 172);
+	background-color: rgb(253, 253, 253);
+	border-style: None;
+}
+
+QPushButton::hover{
+	color: rgb(255, 64, 64);
+}</string>
+       </property>
+       <property name="text">
+        <string>CLOSE</string>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="WelcomeText">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>80</y>
+         <width>138</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Roboto</family>
+         <pointsize>24</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(112, 112, 112);
+}</string>
+       </property>
+       <property name="text">
+        <string>Welcome</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SubText">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>142</y>
+         <width>872</width>
+         <height>68</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Poppins</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(172, 172, 172);
+}</string>
+       </property>
+       <property name="text">
+        <string>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen 
+book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="GetStartedText">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>260</y>
+         <width>130</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Roboto</family>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(112, 112, 112);
+}</string>
+       </property>
+       <property name="text">
+        <string>Get Started</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SubText_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>300</y>
+         <width>334</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Poppins</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(172, 172, 172);
+}</string>
+       </property>
+       <property name="text">
+        <string>Render an awesome colour palette for your project.</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="RndmCP">
+       <property name="geometry">
+        <rect>
+         <x>136</x>
+         <y>392</y>
+         <width>125</width>
+         <height>125</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(239, 239, 239);
+	border-style: none;
+	border-radius: 08px;
+}
+
+QPushButton::hover{
+	background-color: rgb(112, 112, 112);
+}
+
+QPushButton::hover::pressed{
+	background-color: rgb(239, 239, 239);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Elixir/Assets/palette.png</normaloff>../Elixir/Assets/palette.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>77</width>
+         <height>77</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="ClrChsr">
+       <property name="geometry">
+        <rect>
+         <x>538</x>
+         <y>392</y>
+         <width>125</width>
+         <height>125</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(239, 239, 239);
+	border-style: none;
+	border-radius: 08px;
+}
+
+QPushButton::hover{
+	background-color: rgb(112, 112, 112);
+}
+
+QPushButton::hover::pressed{
+	background-color: rgb(239, 239, 239);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Elixir/Assets/color-picker.png</normaloff>../Elixir/Assets/color-picker.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>68</width>
+         <height>68</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="ClrExtctr">
+       <property name="geometry">
+        <rect>
+         <x>940</x>
+         <y>392</y>
+         <width>125</width>
+         <height>125</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(239, 239, 239);
+	border-style: none;
+	border-radius: 08px;
+}
+
+QPushButton::hover{
+	background-color: rgb(112, 112, 112);
+}
+
+QPushButton::hover::pressed{
+	background-color: rgb(239, 239, 239);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Elixir/Assets/insert-picture-icon.png</normaloff>../Elixir/Assets/insert-picture-icon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>75</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLabel" name="RndmCPText">
+       <property name="geometry">
+        <rect>
+         <x>116</x>
+         <y>540</y>
+         <width>164</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Roboto</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(112, 112, 112);
+}</string>
+       </property>
+       <property name="text">
+        <string>Random Colour Palette</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ClrChsrText">
+       <property name="geometry">
+        <rect>
+         <x>546</x>
+         <y>540</y>
+         <width>110</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Roboto</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(112, 112, 112);
+}</string>
+       </property>
+       <property name="text">
+        <string>Colour Chooser</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="ClrExtctrText">
+       <property name="geometry">
+        <rect>
+         <x>945</x>
+         <y>540</y>
+         <width>115</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Roboto</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+	color: rgb(112, 112, 112);
+}</string>
+       </property>
+       <property name="text">
+        <string>Colour Extractor</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
